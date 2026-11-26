@@ -233,4 +233,11 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    send_telegram(
+        "✅ Telegram Connection Test Successful!\n\n"
+        "Your Gold Trading Bot is connected.\n"
+        "Bot: Bilal Gold Alerts"
+    )
+    print("Telegram test message sent successfully.")
+
+
